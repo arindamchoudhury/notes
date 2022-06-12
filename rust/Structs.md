@@ -1,38 +1,3 @@
-# The todo! macro
-The todo! macro is used to identify unfinished code in the Rust program. The macro is helpful for prototyping, or when you want to indicate behavior that isn't complete.
-
-```rust
-fn main() {
-    // Display the message "Hello, world!"
-    todo!("Display the message by using the println!() macro");
-}
-```
-When you compile code that uses the todo! macro, the compiler can return a panic message where it expects to find completed functionality:
-
-```
-   Compiling playground v0.0.1 (/playground)
-    Finished dev [unoptimized + debuginfo] target(s) in 1.50s
-     Running `target/debug/playground`
-thread 'main' panicked at 'not yet implemented: Display the message by using the println!() macro', src/main.rs:3:5
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-```
-
-# Tuples
-
-A tuple is a grouping of values of different types collected into one compound value. The individual values in a tuple are called elements. The values are specified as a comma-separated list enclosed in parentheses (<value>, <value>, ...).
-
-A tuple has a fixed length, which is equal to its number of elements. After a tuple is declared, it can't grow or shrink in size. Elements can't be added or removed. The data type of a tuple is defined by the sequence of the data types of the elements.
-
-The elements in a tuple can be accessed by index position starting from zero. This process is referred to as tuple indexing. To access an element in a tuple, we use the syntax <tuple>.<index>.
-
-```rust
-// Declare a tuple of three elements
-let tuple_e = ('E', 5i32, true);
-
-// Use tuple indexing and show the values of the elements in the tuple
-println!("Is '{}' the {}th letter of the alphabet? {}", tuple_e.0, tuple_e.1, tuple_e.2);
-```
-
 # Structs
 A struct is a type that's composed of other types. The elements in a struct are called fields. Like tuples, the fields in a struct can have different data types. A significant benefit of the struct type is that you can name each field so it's clear what the value means.
 
@@ -83,4 +48,3 @@ println!("{}, level {}. Remote: {}. Grades: {}, {}, {}, {}. Average: {}",
          user_2.name, user_2.level, user_2.remote, mark_2.0, mark_2.1, mark_2.2, mark_2.3, mark_2.4);
 
 ```
-
