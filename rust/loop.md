@@ -48,6 +48,7 @@ The for loop uses a temporary variable as the iterator. The variable is implicit
 
 ```rust
 let big_birds = ["ostrich", "peacock", "stork"];
+
 for bird in big_birds.iter() {
     println!("The {} is a big bird.", bird);
 }
