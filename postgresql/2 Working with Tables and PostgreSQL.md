@@ -6,4 +6,3 @@
 ![image](images/10.jpg)
 ![image](images/11.jpg)
 ![image](images/12.jpg)
-![image](images/10.jpg)
