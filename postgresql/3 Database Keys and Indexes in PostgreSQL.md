@@ -3,8 +3,4 @@
 ![image](images/23.jpg)
 ![image](images/24.jpg)
 ![image](images/25.jpg)
-![image](images/26.jpg)
-![image](images/27.jpg)
-![image](images/28.jpg)
-![image](images/29.jpg)
-![image](images/30.jpg)
+
