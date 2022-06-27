@@ -8,13 +8,3 @@
 ![image](images/50.jpg)
 ![image](images/51.jpg)
 ![image](images/52.jpg)
-
-
-
-![image](images/53.jpg)
-![image](images/54.jpg)
-![image](images/55.jpg)
-![image](images/56.jpg)
-![image](images/57.jpg)
-![image](images/58.jpg)
-![image](images/59.jpg)
