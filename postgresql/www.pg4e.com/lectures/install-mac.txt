@@ -1,0 +1,20 @@
+
+
+brew install postgres
+brew services start postgresql
+
+psql postgres
+
+# or
+# sudo -u postgres psql postgres
+
+postgres=# \du
+
+postgres=# CREATE USER pg4e WITH PASSWORD 'secret';
+CREATE ROLE
+postgres=# CREATE DATABASE people WITH OWNER 'pg4e';
+CREATE DATABASE
+postgres=# CREATE DATABASE discuss WITH OWNER 'pg4e';
+CREATE DATABASE
+postgres=# \q
+

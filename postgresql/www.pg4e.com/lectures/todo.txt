@@ -1,0 +1,97 @@
+
+COURSE 2
+========
+
+WEEK 4 - PANDAS AND SQL
+=======================
+
+NBGrader
+https://www.youtube.com/watch?v=5WUm0QuJdFw
+
+Hiw pandas represents data internally
+https://www.dataquest.io/blog/pandas-big-data/
+
+HDF Store
+https://pandas.pydata.org/pandas-docs/stable/reference/io.html#hdfstore-pytables-hdf5
+
+Changing Pandas Column Type
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.astype.html
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
+
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html
+
+https://pythondata.com/quick-tip-sqlalchemy-for-mysql-and-pandas/
+
+https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html
+
+https://pythontic.com/pandas/serialization/mysql
+
+https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+
+https://stackoverflow.com/questions/38683709/python-pandas-how-to-set-dataframe-column-value-as-x-axis-labels
+
+ax = df['weight'].plot(kind='bar')
+
+Timeouts ??
+
+https://pypi.org/project/timeout-decorator/
+
+import timeout_decorator
+
+Install https://pypi.org/project/pgspecial/
+
+pgspecial
+
+
+$ pip install folium
+
+https://python-visualization.github.io/folium/quickstart.html
+
+
+vi
+
+TODO
+====
+
+DUMP / RESTORE
+--------------
+
+https://www.postgresql.org/docs/9.1/backup-dump.html
+
+pg_dump dbname > outfile
+
+psql dbname < infile
+
+INDEXES AND PERFORMANCE
+-----------------------
+
+VIEWS
+----- 
+
+You can “hide” complexity with a view.   You can create a view with computed columns, which can prove quite handy. You can limit access by use of views as well restrict certain dB users to read-only views.  
+
+
+PROCEDURES
+----------
+
+Stored Procedures
+
+Before, After, or Instead of INSERT, UPDATE, or DELETE
+
+http://www.postgresqltutorial.com/postgresql-create-procedure/
+
+Triggers
+
+CREATE  TRIGGER trigger_name [BEFORE|AFTER|INSTEAD OF] [INSERT|UPDATE|DELETE] OF column_name
+ON table_name
+[
+];
+
+TODO
+----
+
+WITH / Common Table Expressions
+
+PERCENT_RANK
+
